@@ -1,4 +1,33 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  width: 500px;
+  margin: 0 auto;
+  border: 1px solid lightgray;
+}
+
+.App h1 {
+  border-bottom: 1px solid lightgray;
+  margin: 5px;
+}
+
+ul,
+li {
+  margin: 0 auto;
+  list-style-type: none;
+  padding-left: 0px;
+  font-size: 11px;
+}
+
+li {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.add {
+  background-color: green;
+}
+
+.remove {
+  background-color: red;
 }
